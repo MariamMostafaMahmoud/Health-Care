@@ -1,0 +1,147 @@
+@import '../../Style/globels/colors';
+
+footer {
+    background: url(../../assets/footer.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    img {
+        width: 100%;
+    }
+
+    .partOne {
+
+        img {
+            max-width: 100%;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            color: $fontTwo-color;
+        }
+
+        .cantact {
+            div {
+                i {
+                    background-color: $orange-color;
+                    color: $white-color;
+                    border-radius: 30px 30px 0 30px;
+                    font-size: 24px;
+                    line-height: 58px;
+                    text-align: center;
+                    width: 58px;
+                }
+            }
+
+            div {
+                span {
+                    color: $orange-color;
+                    font-size: 14px;
+                    font-weight: 700;
+                    margin-bottom: 5px;
+                }
+
+                h4 {
+                    font-size: 20px;
+                    color: $fontone-color;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        @media (min-width: 400px) and (max-width: 768px) {
+            margin-bottom: 50px;
+        }
+    }
+
+    h3 {
+        color: $fontone-color;
+        font-weight: 700;
+        position: relative;
+        padding-bottom: 20px;
+
+        &::after {
+            background-image: url(../../assets/liness.png);
+            background-repeat: no-repeat;
+            bottom: 0;
+            content: "";
+            height: 7px;
+            left: 0;
+            position: absolute;
+            width: 85px;
+        }
+    }
+
+    .partTwo {
+        ul {
+            padding: 0px;
+
+            li {
+                a {
+                    color: $fontTwo-color;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 35px;
+
+                }
+            }
+        }
+    }
+
+    .partThree {
+        form {
+            input {
+                width: 100%;
+                // width: 269px;
+                height: 52px;
+                box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+                border-radius: 10px;
+                transition: all .3s ease-in-out;
+                border: 2px solid transparent;
+
+                &:hover {
+                    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .2);
+                }
+
+                &:focus {
+                    border: 2px solid $button-color;
+                    outline: none;
+                    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .3);
+
+                }
+            }
+
+            button {
+                width: 100%;
+                // width: 269px;
+                height: 52px;
+                background-color: $orange-color;
+                color: $white-color;
+                border: none;
+                border-radius: 10px;
+                transition: 1s all;
+                -webkit-transition: 1s all;
+                -moz-transition: 1s all;
+                -ms-transition: 1s all;
+                -o-transition: 1s all;
+
+                &:hover {
+                    background-color: #e08551;
+
+                }
+            }
+        }
+
+        ul {
+            padding: 0;
+
+            li {
+                padding-left: 15px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,166 @@
+@import '../../Style/globels/colors';
+
+.sticky {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    background-color: $white-color;
+}
+
+.navbar {
+
+    .navbar-nav {
+        .nav-item {
+            margin-left: 15px;
+            margin-right: 15px;
+
+            @media (min-width: 900px) and (max-width: 1105px) {
+                margin-left: 0px;
+                margin-right: 10px;
+            }
+
+            a:not(.faMagnifyingGlass):not(.faPhone):not(.phoneNumber) {
+                color: $blue-color;
+                font-weight: 700;
+                letter-spacing: 1px;
+                font-size: 16px;
+                transition: .3s all;
+                -webkit-transition: .3s all;
+                -moz-transition: .3s all;
+                -ms-transition: .3s all;
+                -o-transition: .3s all;
+
+                &:hover {
+                    color: $orange-color;
+                }
+
+
+            }
+
+            .faMagnifyingGlass {
+                color: $lightBlue-color;
+                font-weight: 900;
+                transform: scaleX(-1);
+                font-size: 18px;
+            }
+
+            .faPhone {
+                font-size: 18px;
+                color: $button-color;
+                background-color: $blueTwo-color;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                width: 35px;
+                text-align: center;
+            }
+
+            .phoneNumber {
+                color: $blue-color;
+                font-weight: 900;
+                letter-spacing: 2px;
+                font-size: 18px;
+            }
+
+        }
+
+        .dropdown {
+            position: relative;
+
+
+            .dropdown-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 1000;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+
+            a {
+                &:hover {
+                    .fa-solid {
+                        color: $orange-color;
+                        transform: scale(1.2);
+
+                        &.fa-plus:before {
+                            content: "\f00d"; // رمز X في Font Awesome
+                        }
+                    }
+                }
+
+                .fa-solid {
+                    font-size: 10px;
+                    transition: color 0.3s, transform 0.3s;
+                    color: #bbbbcf;
+
+                    &.fa-plus:before {
+                        content: "\f067"; // رمز "+" في Font Awesome
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .contactBtn {
+        width: 190px;
+        height: 50px;
+        color: $white-color !important;
+        background-color: $button-color !important;
+        border: none !important;
+        border-radius: 5px !important;
+        -webkit-border-radius: 5px !important;
+        -moz-border-radius: 5px !important;
+        -ms-border-radius: 5px !important;
+        -o-border-radius: 5px !important;
+        text-transform: uppercase;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+        transition: 0.3s ease-in-out !important;
+        -webkit-transition: 0.3s ease-in-out !important;
+        -moz-transition: 0.3s ease-in-out !important;
+        -ms-transition: 0.3s ease-in-out !important;
+        -o-transition: 0.3s ease-in-out !important;
+
+        &:hover {
+            background-color: #6a6ee1 !important;
+
+        }
+
+        span {
+            background-color: #fff;
+            color: #565bce;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            line-height: 40px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+
+
+    }
+
+}

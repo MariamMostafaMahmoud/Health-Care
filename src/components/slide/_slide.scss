@@ -1,0 +1,160 @@
+$card-background: #fff;
+$card-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$btn-background: #d3d3f3;
+@import '../../Style/globels/colors';
+
+.secSlider {
+    position: relative;
+    margin-left: 6%;
+    &::after {
+        background-color: #565acf;
+        border-radius: 40px 0 0 40px;
+        content: "";
+        height: 100%;
+        position: absolute;
+        right: -12px;
+        top: 0;
+        width: 45%;
+        z-index: -1;
+
+    }
+
+
+
+        .row {
+            .sideleft {
+                h6 {
+                    font-size: 18px;
+                    color: $orange-color;
+                    font-weight: 700;
+                    background-image: url(../../assets/bg-about.png);
+                    display: inline-block;
+                    margin-bottom: 15px;
+                    padding: 3px 15px;
+                }
+
+                h2 {
+
+                    font-size: 45px;
+                    color: $blue-color;
+                    line-height: 1.3;
+                    font-weight: 700;
+
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 500;
+                    padding-top: 5px;
+                    color: $fontTwo-color;
+                }
+
+                .buttonService {
+                    button {
+                        background-color: $orange-color;
+                        border: none;
+                        color: $white-color;
+                        font-size: 16px;
+                        line-height: 1;
+                        padding: 20px 35px;
+                        transition: 0.1S ALL;
+                        -webkit-transition: 0.1S ALL;
+                        -moz-transition: 0.1S ALL;
+                        -ms-transition: 0.1S ALL;
+                        -o-transition: 0.1S ALL;
+
+                        &:hover {
+                            background-color: #e88b56d9;
+                        }
+                    }
+                }
+            }
+
+            .cardss {
+                @media (min-width: 768px) and (max-width: 1200px) {
+
+
+                    flex: 1 1 48%; // العرض يكون 48% على الشاشات المتوسطة
+
+                }
+
+                @media (min-width: 1200px) {
+
+                    flex: 1 1 30%; // العرض يكون 30% على الشاشات الكبيرة
+
+                }
+
+                .swiper-slide {
+                    // margin-right: 5%;
+
+                    .card {
+                        background-image: url(../../assets/bg-card.png);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        // background-size: 100%;
+                        border-radius: 20px;
+                        padding: 40px;
+                        background-color: #fff;
+                        // width: 290px;
+                        // width: 75%;
+                        border: 2px solid rgba(86, 90, 207, .1);
+                        // height: 420px;
+                        box-shadow: 10px 0 15px -5px rgba(0, 0, 0, 0.3);
+                        
+                        .feature-box-xl {
+                            background-color: #fff;
+                            border: 2px solid rgba(86, 90, 207, .1);
+                            border-radius: 13px;
+                            height: 130px;
+                            line-height: 130px;
+                            width: 130px;
+
+                            span {
+                                text-align: center;
+
+                                svg {
+                                    width: 60px;
+                                }
+                            }
+                        }
+
+                        .card-body {
+                            .card-title {
+                                font-size: 28px;
+                                font-weight: 700;
+                                color: $blue-color;
+                            }
+
+                            .card-text {
+                                font-size: 15px;
+                                margin-bottom: 20px;
+                                color: $fontTwo-color;
+                                line-height: 1.7;
+                            }
+
+                            .btn {
+
+                                background-color: #e1e2f6;
+                                border: none;
+                                color: #565acf;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 1.2;
+                                padding: 15px 30px;
+                                text-transform: capitalize;
+                                transition: all .5s;
+
+                                &:hover {
+                                    background-color: #565acf;
+                                    color: #e1e2f6;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+    
+}

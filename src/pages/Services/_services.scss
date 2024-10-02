@@ -1,0 +1,92 @@
+@import '../../Style/globels/colors';
+
+section {
+    .first {
+        .card {
+            background-image: url(../../assets/bg-card.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            border-radius: 20px;
+            padding: 40px;
+            background-color: #fff;
+            // width: 290px;
+            height: 420px;
+            margin-bottom: 5%;
+
+            .feature-box-xl {
+                background-color: #fff;
+                border: 2px solid rgba(86, 90, 207, .1);
+                border-radius: 13px;
+                height: 130px;
+                line-height: 130px;
+                width: 130px;
+
+                span {
+                    text-align: center;
+
+                    svg {
+                        width: 60px;
+                    }
+                }
+            }
+
+            .card-body {
+                .card-title {
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: $blue-color;
+                }
+
+                .card-text {
+                    font-size: 15px;
+                    margin-bottom: 20px;
+                    color: $fontTwo-color;
+                    line-height: 1.7;
+                }
+
+                .btn {
+
+                    background-color: #e1e2f6;
+                    border: none;
+                    color: #565acf;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    padding: 15px 30px;
+                    text-transform: capitalize;
+                    transition: all .5s;
+
+                    &:hover {
+                        background-color: #565acf;
+                        color: #e1e2f6;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .third {
+        .header-team {
+
+            h6,
+            h2 {
+                font-weight: 700;
+            }
+
+            h6 {
+                background-image: url(../../assets/bg-about.png);
+                display: inline-block;
+                color: $orange-color;
+                margin-bottom: 15px;
+                padding: 3px 15px;
+                font-size: 18px;
+            }
+
+            h2 {
+                font-size: 45px;
+                color: $blue-color;
+            }
+        }
+    }
+}

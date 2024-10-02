@@ -1,0 +1,64 @@
+@import '../../Style/globels/colors';
+
+  .comment-list {
+      margin-bottom: 60px;
+      padding: 0;
+
+      li {
+          .comment-bg {
+              background-color: #fff;
+              border: 1px solid rgba(86, 90, 207, .2);
+              border-bottom: 3px solid #565acf;
+              border-radius: 6px 6px 4px 4px;
+              box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .06);
+              margin-bottom: 30px;
+              padding: 30px;
+              position: relative;
+
+              .comment-author {
+                  align-items: center;
+                  display: flex;
+                  margin-bottom: 15px;
+
+                  img {
+
+                      border-radius: 14px;
+                      -webkit-border-radius: 14px;
+                      box-shadow: 0 0 30px 0 rgba(0, 10, 105, .03);
+                      height: 70px;
+                      margin-right: 16px;
+                      width: 70px;
+                  }
+
+                  .comment-name {
+                      h4 {
+                          color: $blue-color;
+                          font-size: 20px;
+                          font-weight: 700;
+                          line-height: 28px;
+                          margin-bottom: 5px;
+                      }
+
+                  }
+              }
+
+              p {
+                  color: $fontTwo-color;
+              }
+
+              .reply-btn {
+                  a {
+                      background: #565acf;
+                      border-radius: 8px;
+                      color: #fff;
+                      display: inline-block;
+                      font-size: 12px;
+                      font-weight: 600;
+                      margin-top: 12px;
+                      padding: 6px 14px;
+                      text-transform: uppercase;
+                  }
+              }
+          }
+      }
+  }

@@ -1,0 +1,114 @@
+@import '../../Style/globels/colors';
+.card {
+    background-color: #fff;
+    border: 2px solid rgba(86, 90, 207, .2);
+    border-radius: 20px;
+    padding: 35px 40px 50px;
+    position: relative;
+    transition: all .5s;
+    z-index: 1;
+    margin-bottom: 5%;
+
+    &:hover {
+
+        border-color: #fff;
+        box-shadow: 0 10px 50px 0 rgba(0, 2, 72, .1);
+        z-index: 9;
+
+        .img-card {
+
+            &::before,
+            &::after {
+                opacity: 1;
+            }
+        }
+
+    }
+
+    .img-card {
+        margin-bottom: 20px;
+        padding: 20%;
+        position: relative;
+
+        &::before {
+            background-image: url(../../assets/rec5.png);
+            background-size: 77%;
+        }
+
+        &::after {
+            background-image: url(../../assets/rec6.png);
+            background-size: 100%;
+        }
+
+        &::after,
+        &::before {
+
+            background-position: 50%;
+            background-repeat: no-repeat;
+            content: "";
+            height: 100%;
+            left: 50%;
+            opacity: .2;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            transition: all .5s;
+            width: 100%;
+            z-index: 2;
+
+        }
+
+
+        img {
+            mask-image: url(../../assets/mask.png);
+            mask-size: 100%;
+            mask-repeat: no-repeat;
+
+        }
+    }
+
+    .card-body {
+        .data-info {
+            h4 {
+                font-weight: 700;
+                font-size: 24px;
+                color: $blue-color;
+            }
+
+            span {
+                color: $orange-color;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+
+            li {
+                padding-left: 5%;
+
+                a {
+                    background-color: $button-color;
+                    border-radius: 8px;
+                    box-shadow: 0 10px 40px 0 rgba(31, 34, 120, .1);
+                    color: #fff;
+                    display: block;
+                    height: 40px;
+                    line-height: 42px;
+                    text-align: center;
+                    transition: all .5s;
+                    width: 40px;
+
+                    &:hover {
+                        background-color: $orange-color;
+                    }
+                }
+            }
+
+        }
+    }
+}

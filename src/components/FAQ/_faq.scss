@@ -1,0 +1,38 @@
+@import '../../Style/globels/colors';
+
+.faq,.service-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .accordion {
+        .accordion-item {
+            margin-bottom: 3%;
+
+            .accordion-header {
+                .accordion-button {
+                    background-color: $button-color;
+                    border: 0;
+                    border-radius: 8px !important;
+                    color: #fff;
+                    font-weight: 600;
+                    padding: 18px 25px;
+                    transition: all .5s;
+
+                    &:not(.collapsed) {
+                        background-color: $orange-color;
+                    }
+                }
+            }
+
+            .accordion-collapse {
+                .accordion-body {
+                    background-color: #eeeefa;
+                    border-radius: 0 0 8px 8px;
+                    font-size: 15px;
+                    padding: 25px;
+                    color: $fontTwo-color;
+
+                }
+            }
+        }
+    }
+}

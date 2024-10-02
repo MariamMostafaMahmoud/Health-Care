@@ -1,0 +1,26 @@
+@import '../../Style/globels/colors';
+
+nav {
+    .pagination {
+        .page-item {
+            padding-left: 10px;
+
+            .page-link {
+                color: $blue-color;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+            }
+
+        }
+
+        .active {
+            a {
+                background-color: $button-color !important;
+                color: #fff !important;
+            }
+        }
+    }
+}

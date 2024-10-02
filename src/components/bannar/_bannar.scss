@@ -1,0 +1,42 @@
+@import '../../Style/globels/colors';
+
+.bg-banner {
+    background-image: url(../../assets/bg-pages.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    .about-top {
+        h1 {
+            padding-top: 5%;
+            color: $blue-color;
+            font-size: 72px;
+            font-weight: 700;
+        }
+
+        ul {
+            margin-top: 20px;
+            background-color: $button-color;
+            display: inline-block;
+            text-align: center;
+            padding: 12px 30px;
+            border-radius: 10px;
+            color: $white-color ;
+            font-size: 20px;
+
+            li {
+
+                .back {
+                    color: $white-color;
+
+                    .faHouse {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    img{
+        width: 100%;
+    }
+}

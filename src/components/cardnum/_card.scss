@@ -1,0 +1,60 @@
+@import '../../Style/globels/colors';
+
+section {
+    .second {
+        background-color: #eeeefa;
+
+        .card-240 {
+            width: 300px;
+            position: relative;
+            margin: 20px;
+            padding: 20px;
+
+            .card-content {
+                background-color: #fff;
+                border-radius: 20px;
+                margin: 5px 0 0 15px;
+                padding: 50px 30px;
+                position: relative;
+                transition: all .5s;
+                width: 250px;
+                height: 264px;
+                z-index: 1;
+
+                h2,
+                h5 {
+                    margin-bottom: 12px;
+                    line-height: 1;
+                    font-weight: 700;
+                }
+
+                h2 {
+                    font-size: 60px;
+                    color: $orange-color;
+                }
+
+                h5 {
+                    color: $blue-color;
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+            }
+
+            &::before {
+                border: 2px solid #565acf;
+                border-radius: 20px;
+                content: "";
+                height: 88%;
+                left: 19px;
+                position: absolute;
+                top: 12px;
+                width: 79%;
+
+            }
+        }
+    }
+}

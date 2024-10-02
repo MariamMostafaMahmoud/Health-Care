@@ -1,0 +1,132 @@
+@import '../../Style/globels/colors';
+@import '../../Style/globels/ainmations';
+
+.sec2 {
+    background-color: #f4f5fd;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-bottom: 50px;
+    /* تقليل padding-bottom */
+    padding-top: 5%;
+    /* تقليل padding-top */
+    background-size: cover;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+
+    .bg-book {
+        .bg-form {
+            .appointment-thumb {
+
+                .phone {
+                    max-width: 100%;
+                }
+
+                .images-group {
+                    position: relative;
+
+                    img {
+                        position: absolute;
+                        max-width: 100%;
+                    }
+
+                    .img1 {
+                        animation: left-right 2s infinite alternate;
+                        -webkit-animation: left-right 2s infinite alternate;
+                        bottom: 10px;
+
+                        right: 10px;
+
+                        height: 480px;
+
+
+                        @media only screen and (max-width: 1199px) {
+                            height: 370px;
+                        }
+
+                        @media only screen and (max-width: 991px) {
+                          
+                                height: 200px;
+                            
+                        }
+                    }
+
+                    .img3 {
+                        bottom: 150px;
+
+                        left: 60px;
+                        width: 90px;
+
+                        animation: Mover 2.3s infinite alternate;
+                        -webkit-animation: Mover 2.3s infinite alternate;
+
+                        @media only screen and (max-width: 1400px) {
+                            left: 50px;
+                            /* تعديل القيمة */
+                            width: 65px;
+                            /* تقليل width */
+                            bottom: 120px;
+                            /* تعديل القيمة */
+                        }
+                    }
+
+                    .img5 {
+                        animation: Mover .5s infinite alternate;
+                        bottom: 80px;
+                        /* تقليل القيمة */
+                        right: 150px;
+                        /* تقليل القيمة */
+                        width: 70px;
+                        /* تقليل width */
+                        -webkit-animation: Mover 2.5s infinite alternate;
+
+                        @media only screen and (max-width: 1400px) {
+                            right: 80px;
+                            /* تعديل القيمة */
+                            width: 60px;
+                            /* تقليل width */
+                            bottom: 70px;
+                            /* تعديل القيمة */
+                        }
+                    }
+
+                    .img4 {
+                        animation: Mover .5s infinite alternate;
+                        bottom: 300px;
+                        /* تقليل القيمة */
+                        left: 40px;
+                        /* تقليل القيمة */
+                        -webkit-animation: Mover 2.5s infinite alternate;
+
+                        @media only screen and (max-width: 1400px) {
+                            bottom: 200px;
+                            /* تعديل القيمة */
+                            left: 20px;
+                            /* تعديل القيمة */
+                            width: 60px;
+                            /* تقليل width */
+                        }
+                    }
+
+                    .img2 {
+                        animation: Mover .5s infinite alternate;
+                        bottom: 400px;
+                        left: 500px;
+                        -webkit-animation: Mover 2.5s infinite alternate;
+
+                        @media only screen and (max-width: 1400px) {
+                            bottom: 320px;
+                            /* تعديل القيمة */
+                            left: 360px;
+                            /* تعديل القيمة */
+                            width: 80px;
+                            /* تقليل width */
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

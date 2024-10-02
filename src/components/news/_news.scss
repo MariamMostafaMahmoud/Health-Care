@@ -1,0 +1,30 @@
+@import '../../Style/globels/colors';
+
+.secNews {
+    .secDetails {
+
+        h6,
+        h2 {
+
+            font-weight: 700;
+            margin-bottom: 15px;
+
+        }
+
+        h6 {
+            background-image: url(../../assets/bg-about.png);
+            display: inline-block;
+            color: $orange-color;
+            font-size: 18px;
+            padding: 3px 15px;
+        }
+
+        h2 {
+            color: $blue-color;
+            font-size: 45px;
+            margin-bottom: 45px;
+        }
+
+  
+    }
+}

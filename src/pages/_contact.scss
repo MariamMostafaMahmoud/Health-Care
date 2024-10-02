@@ -1,0 +1,177 @@
+@import '../Style/globels/colors';
+
+section {
+ 
+    .contact-bg {
+        background-color: $white-color;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+        padding: 70px 50px 40px;
+        border: 1px #cecece solid;
+        .conact-form {
+            form {
+                div {
+
+                    input,
+                    select,
+                    textarea,
+                    button {
+                        margin-bottom: 30px;
+                        height: 60px;
+                    }
+
+                    button {
+                        background-color: $orange-color;
+                        color: $white-color;
+
+                        &:hover {
+                            background-color: #e08551;
+                        }
+                    }
+                }
+            }
+        }
+
+        div {
+            color: $white-color;
+
+            .rightSide {
+                background-image: url(../assets/people.jpg);
+                background-size: cover;
+                width: 100%;
+                border-radius: 8px;
+                height: 100%;
+
+                .overlay {
+                    background-color: $button-color;
+                    opacity: .9;
+                    border-radius: 8px;
+                    height: 100%;
+
+                    div {
+                        h4 {
+                            font-size: 24px;
+                            font-weight: 700;
+                        }
+
+                        .icon-box {
+
+                            h6 {
+                                font-weight: 700;
+                                border-bottom: 2px solid hsla(0, 0%, 100%, .2);
+                                padding-bottom: 10px;
+                                width: 60%;
+
+                                i {
+                                    padding-right: 2%;
+                                }
+
+                            }
+
+                            p {
+                                font-size: 15px;
+                                width: 50%;
+                                font-family: 500;
+                            }
+
+                            .icons {
+                                ul {
+                                    padding: 0px;
+
+                                    li {
+                                        padding-left: 5px;
+
+                                        a {
+                                            background-color: $white-color;
+                                            border-radius: 8px;
+                                            -webkit-border-radius: 8px;
+                                            -moz-border-radius: 8px;
+                                            -ms-border-radius: 8px;
+                                            -o-border-radius: 8px;
+                                            color: $blue-color;
+                                            font-size: 16px;
+                                            height: 40px;
+                                            line-height: 40px;
+                                            text-align: center;
+                                            transition: all .5s;
+                                            width: 40px;
+                                            display: block;
+
+                                            &:hover {
+                                                background-color: $orange-color;
+                                                color: $white-color;
+                                            }
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .one {
+        border: 1px solid #565acf;
+    }
+
+    .two {
+        border: 1px solid #fdc1c0;
+    }
+
+    .three {
+        border: 1px solid #abfac6;
+    }
+
+    .contactUs {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 5px 30px 0 rgba(31, 34, 120, .08);
+        padding: 45px 35px 35px;
+        width: 30%;
+
+        @media (max-width: 992px) {
+
+            width: 48%;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+
+            width: 70%;
+           margin-left: 5%;
+
+        }
+
+        .feature-bx {
+            img {
+                height: 50px;
+                max-width: 100%;
+                vertical-align: middle;
+                width: auto;
+            }
+
+        }
+
+        .icon-content {
+            h5 {
+                margin-top: 20px;
+                color: $blue-color;
+
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            p {
+                margin: 0;
+                color: $fontTwo-color;
+            }
+        }
+    }
+}
