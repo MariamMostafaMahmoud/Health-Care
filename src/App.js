@@ -8,7 +8,8 @@ import Layout from './components/Layout';
 import ContactUS from './pages/contact';
 // React
 import { Fragment } from 'react';
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+// import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import SearchBar from './components/search/search';
 import MySlider from './components/slide/slide';
@@ -28,27 +29,45 @@ import ServiceDetails from './pages/serviceDetails/serviceDetails';
 
 
 // Routing
-const routes = createBrowserRouter(createRoutesFromElements(
-  <Route path='/' element={<Layout />}>
-    <Route index  element={<Home />} />
-    <Route path='/Home' element={<Home />} />
-    <Route path='/About' element={<AboutUS />} />
-    <Route path='/OurTeam' element={<OurTeam />} />
-    <Route path='/FAQ' element={<Faq />} />
-    <Route path='/Booking' element={<Booking />} />
-    <Route path='/Error' element={<Error />} />
-    <Route path='/Login' element={<Login />} />
-    <Route path='/Services' element={<Service />} />
-    <Route path='/ServicesDetails' element={<ServiceDetails/>}/>
-    <Route path='/Blog' element={<Blog />} />
-    <Route path='/BlogDetails' element={<BlogDetails />} />
-    <Route path='/Contact' element={<ContactUS />} />
-  </Route>
-))
+// const routes = createBrowserRouter(createRoutesFromElements(
+//   <Route path='/' element={<Layout />}>
+//     <Route index  element={<Home />} />
+//     <Route path='/Home' element={<Home />} />
+//     <Route path='/About' element={<AboutUS />} />
+//     <Route path='/OurTeam' element={<OurTeam />} />
+//     <Route path='/FAQ' element={<Faq />} />
+//     <Route path='/Booking' element={<Booking />} />
+//     <Route path='/Error' element={<Error />} />
+//     <Route path='/Login' element={<Login />} />
+//     <Route path='/Services' element={<Service />} />
+//     <Route path='/ServicesDetails' element={<ServiceDetails/>}/>
+//     <Route path='/Blog' element={<Blog />} />
+//     <Route path='/BlogDetails' element={<BlogDetails />} />
+//     <Route path='/Contact' element={<ContactUS />} />
+//   </Route>
+// ))
 function App() {
   return (
     <Fragment>
-      <RouterProvider router={routes} />
+      <Router>
+        <Routes>
+          <Route path='/' element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path='Home' element={<Home />} />
+            <Route path='About' element={<AboutUS />} />
+            <Route path='OurTeam' element={<OurTeam />} />
+            <Route path='FAQ' element={<Faq />} />
+            <Route path='Booking' element={<Booking />} />
+            <Route path='Error' element={<Error />} />
+            <Route path='Login' element={<Login />} />
+            <Route path='Services' element={<Service />} />
+            <Route path='ServicesDetails' element={<ServiceDetails />} />
+            <Route path='Blog' element={<Blog />} />
+            <Route path='BlogDetails' element={<BlogDetails />} />
+            <Route path='Contact' element={<ContactUS />} />
+          </Route>
+        </Routes>
+      </Router>
     </Fragment>
   );
 }
