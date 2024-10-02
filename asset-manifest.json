@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Health-Care/static/css/main.40821e05.css",
-    "main.js": "/Health-Care/static/js/main.5613e215.js",
+    "main.js": "/Health-Care/static/js/main.3b5ee1a8.js",
     "static/js/453.c57b4cd1.chunk.js": "/Health-Care/static/js/453.c57b4cd1.chunk.js",
     "static/media/error.gif": "/Health-Care/static/media/error.4b5472f14025469a16d7.4b5472f14025469a16d7.gif",
     "static/media/pic1.d8.jpg": "/Health-Care/static/media/pic1.d8.d8c3c8e35b95f89900a4.jpg",
@@ -25,11 +25,11 @@
     "static/media/shape1.png": "/Health-Care/static/media/shape1.1112f1ac0dc18e511a91.png",
     "index.html": "/Health-Care/index.html",
     "main.40821e05.css.map": "/Health-Care/static/css/main.40821e05.css.map",
-    "main.5613e215.js.map": "/Health-Care/static/js/main.5613e215.js.map",
+    "main.3b5ee1a8.js.map": "/Health-Care/static/js/main.3b5ee1a8.js.map",
     "453.c57b4cd1.chunk.js.map": "/Health-Care/static/js/453.c57b4cd1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40821e05.css",
-    "static/js/main.5613e215.js"
+    "static/js/main.3b5ee1a8.js"
   ]
 }
