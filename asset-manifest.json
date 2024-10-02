@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Health-Care/static/css/main.40821e05.css",
+    "main.js": "/Health-Care/static/js/main.5613e215.js",
+    "static/js/453.c57b4cd1.chunk.js": "/Health-Care/static/js/453.c57b4cd1.chunk.js",
+    "static/media/error.gif": "/Health-Care/static/media/error.4b5472f14025469a16d7.4b5472f14025469a16d7.gif",
+    "static/media/pic1.d8.jpg": "/Health-Care/static/media/pic1.d8.d8c3c8e35b95f89900a4.jpg",
+    "static/media/doctor.png": "/Health-Care/static/media/doctor.7c2bc96d67d3eba1d64a.png",
+    "static/media/pic2.jpg": "/Health-Care/static/media/pic2.67db6c474a828bd7a0cd.jpg",
+    "static/media/bg-pages.jpg": "/Health-Care/static/media/bg-pages.815eb17ad747be75950d.jpg",
+    "static/media/footer.jpg": "/Health-Care/static/media/footer.d025f458ac691ab6e8fa.jpg",
+    "static/media/pic3.jpg": "/Health-Care/static/media/pic3.89b8315141d75bd31ced.jpg",
+    "static/media/pic1.jpg": "/Health-Care/static/media/pic1.a3848a1189e2114e1b47.jpg",
+    "static/media/pic5.7.jpg": "/Health-Care/static/media/pic5.7.7eb547294db1e78a2604.jpg",
+    "static/media/phone.png": "/Health-Care/static/media/phone.f82d73222992d2101a09.png",
+    "static/media/member1.jpg": "/Health-Care/static/media/member1.22ac1d594f69ddaf3e08.jpg",
+    "static/media/member2.jpg": "/Health-Care/static/media/member2.d03a0686030bcd2f05ec.jpg",
+    "static/media/girl1.jpg": "/Health-Care/static/media/girl1.0593bc2fd8a13cf8c19f.jpg",
+    "static/media/member3.jpg": "/Health-Care/static/media/member3.0d822ecc51b2532abe0e.jpg",
+    "static/media/pic2.24.jpg": "/Health-Care/static/media/pic2.24.2c21a722397dfc7d2854.jpg",
+    "static/media/people.jpg": "/Health-Care/static/media/people.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/people3.jpg": "/Health-Care/static/media/people3.fa689b1037dbf69567a3.jpg",
+    "static/media/bg1.jpg": "/Health-Care/static/media/bg1.c53c8971d16c9a1033ae.jpg",
+    "static/media/women.3.png": "/Health-Care/static/media/women.3.eb5c49c523f7d6240d33.png",
+    "static/media/shape1.png": "/Health-Care/static/media/shape1.1112f1ac0dc18e511a91.png",
+    "index.html": "/Health-Care/index.html",
+    "main.40821e05.css.map": "/Health-Care/static/css/main.40821e05.css.map",
+    "main.5613e215.js.map": "/Health-Care/static/js/main.5613e215.js.map",
+    "453.c57b4cd1.chunk.js.map": "/Health-Care/static/js/453.c57b4cd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40821e05.css",
+    "static/js/main.5613e215.js"
+  ]
+}
